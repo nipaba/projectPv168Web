@@ -1,7 +1,7 @@
 package cz.pv168Web.servlets;
 
 import java.io.IOException;
-import java.util.Date;
+
 import java.util.List;
 
 import javax.servlet.ServletException;
@@ -20,7 +20,7 @@ import cz.pv168Web.utils.DatabaseException;
 /**
  * Servlet implementation class LandServlet
  */
-@WebServlet("/Land")
+@WebServlet("/Land/*")
 public class LandServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     
